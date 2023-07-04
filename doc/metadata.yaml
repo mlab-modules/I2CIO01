@@ -7,8 +7,8 @@ github_url: https://github.com/mlab-modules/I2CIO01
 homepage: false
 image: doc/img/I2CIO01A_top_big.jpg
 images:
-- doc/img/I2CIO01A_top_small.jpg
 - doc/img/I2CIO01A_top_big.jpg
+- doc/img/I2CIO01A_top_small.jpg
 - doc/img/I2CIO01A_QRcode.png
 issues: 0
 mark: 50
