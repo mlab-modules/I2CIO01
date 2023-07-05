@@ -12,5 +12,7 @@ images:
 - doc/img/I2CIO01A_QRcode.png
 issues: 0
 mark: 50
-tags: []
+tags:
+- mlab
+- mlab-module
 title: I2CIO01
