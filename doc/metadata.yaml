@@ -1,7 +1,14 @@
-description: null
+description: "This GPIO expander module is designed for 1.65 to 5.5 V operation. It\
+  \ provides general-purpose remote I/O expansion via the I\xB2C interface.The module\
+  \ consists of two 8-bit Configurable, Input Port, Output Port, and Polarity Inversion\
+  \ registers."
 github_branch: I2CIO01A
 github_branches:
 - I2CIO01A
+github_description: "This GPIO expander module is designed for 1.65 to 5.5 V operation.\
+  \ It provides general-purpose remote I/O expansion via the I\xB2C interface.The\
+  \ module consists of two 8-bit Configurable, Input Port, Output Port, and Polarity\
+  \ Inversion registers."
 github_repo: I2CIO01
 github_url: https://github.com/mlab-modules/I2CIO01
 homepage: false
@@ -17,4 +24,4 @@ tags:
 - mlab
 - mlab-module
 title: I2CIO01
-updated: '2023-09-16T22:01:19.212309+00:00'
+updated: '2023-09-17T11:34:40.382369+00:00'

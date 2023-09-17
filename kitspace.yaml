@@ -5,4 +5,6 @@ eda:
   type: kicad
 gerbers: hw/cam_profi/
 site: https://github.com/mlab-modules/I2CIO01
-summary: null
+summary: "This GPIO expander module is designed for 1.65 to 5.5 V operation. It provides\
+  \ general-purpose remote I/O expansion via the I\xB2C interface.The module consists\
+  \ of two 8-bit Configurable, Input Port, Output Port, and Polarity Inversion registers."
