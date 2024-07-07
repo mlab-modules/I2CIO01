@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "I2CIO01-rescue")(type "Legacy")(uri "${KIPRJMOD}/I2CIO01-rescue.lib")(options "")(descr ""))
+  (lib (name "tca6416a")(type "Legacy")(uri "${KIPRJMOD}/tca6416a.lib")(options "")(descr ""))
+)
