@@ -4,7 +4,7 @@
 
 ## Overview
 
-The I2CIO01A module is a GPIO expander designed for operation in the range of 1.65 to 5.5 V. It provides general-purpose remote I/O expansion via the I²C interface. The module comprises two 8-bit Configurable, Input Ports, Output Port, and Polarity Inversion registers.
+The I2CIO01 module is a GPIO expander designed for operation in the range of 1.65 to 5.5 V. It provides general-purpose remote I/O expansion via the I²C interface. The module comprises two 8-bit Configurable, Input Ports, Output Port, and Polarity Inversion registers.
 
 ## Features
 
@@ -29,7 +29,7 @@ The I2CIO01A module is a GPIO expander designed for operation in the range of 1.
 
 ## Design Details
 
-### IC Selection
+### IC Selection variants
 - **TCA6416A:**
   - Populate RES, do not populate ADR X
   - Jumper to Vccp and VDD
@@ -65,6 +65,7 @@ The module's design and layout files can be found in the `hw/sch_pcb` directory.
 3. **Testing:** No additional setup is required beyond the initial inspection.
 
 For more detailed information on each component, please refer to their respective datasheets:
+
 - [TCA6416A Datasheet](https://www.ti.com/product/TCA6416A)
 - [TCA9535 Datasheet](https://www.ti.com/product/TCA9535)
 
@@ -75,4 +76,3 @@ Contributions are welcome! Please fork this repository and submit a pull request
 ## Contact
 
 For more information, visit the [MLAB website](http://www.mlab.cz) or contact us at support@mlab.cz.
-
