@@ -1,0 +1,13 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,,C,C2,100nF,SMD-0805,1,
+2,,C,C1,10uF,SMD-0805,1,
+3,,ZENER,D1,"BZV55C-3,6V",Diode-MiniMELF_Standard,1,
+4,,CONN1_2,J5J8,CONN1_2,Pin_Header_Straight_1x02,2,
+5,,CONN_2,J4J9,CONN_2,Pin_Header_Straight_1x02,2,
+6,,JUMP_2X2,J1,JUMP_2X2,Pin_Header_Straight_2x02,1,
+7,,JUMP_3X2,J3,JUMP_3X2,Pin_Header_Straight_2x03,1,
+8,,JUMP_5X2,J2,JUMP_5X2,Pin_Header_Straight_2x05,1,
+9,,JUMP_8X2,J6J7,JUMP_8X2,Pin_Header_Straight_2x08,2,
+10,,R,R1R2R3R4R5R7R9R11R13R15R16R18R24,10k,SMD-0805,13,
+11,,R,R6R8R10R12R14R17R19R20,-,SMD-0805,8,
+12,,TCA6416A,U1,TCA6416A,TSSOP-28,1,

@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/I2CIO01.kicad_sch</source>
+    <date>Sun Jul  7 21:21:59 2024</date>
+    <tool>Eeschema 7.0.11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>I2CIO01A</title>
+        <company/>
+        <rev/>
+        <date>2024-07-07</date>
+        <source>I2CIO01.kicad_sch</source>
+        <comment number="1" value="GPIO expander with I²C interface; 16-bit I/O,\nconfigurable ports, polarity inversion. "/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005469d39d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005469d318</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BZV55C-3,6V</value>
+      <footprint>MLAB_D:Diode-MiniMELF_Standard</footprint>
+      <libsource lib="I2CIO01-rescue" part="ZENER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468f21f</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>JUMP_2X2</value>
+      <footprint>Hrebinky:Pin_Header_Straight_2x02</footprint>
+      <libsource lib="I2CIO01-rescue" part="JUMP_2X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468999d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>JUMP_5X2</value>
+      <footprint>Hrebinky:Pin_Header_Straight_2x05</footprint>
+      <libsource lib="I2CIO01-rescue" part="JUMP_5X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468863e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>JUMP_3X2</value>
+      <footprint>Hrebinky:Pin_Header_Straight_2x03</footprint>
+      <libsource lib="I2CIO01-rescue" part="JUMP_3X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468ec1f</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_2</value>
+      <footprint>Hrebinky:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="I2CIO01-rescue" part="CONN_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005475d9a1</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>CONN1_2</value>
+      <footprint>Hrebinky:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="I2CIO01-rescue" part="CONN1_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468852b</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>JUMP_8X2</value>
+      <footprint>Hrebinky:Pin_Header_Straight_2x08</footprint>
+      <libsource lib="I2CIO01-rescue" part="JUMP_8X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468adba</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>JUMP_8X2</value>
+      <footprint>Hrebinky:Pin_Header_Straight_2x08</footprint>
+      <libsource lib="I2CIO01-rescue" part="JUMP_8X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468ae3d</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>CONN1_2</value>
+      <footprint>Hrebinky:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="I2CIO01-rescue" part="CONN1_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000054745488</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>CONN_2</value>
+      <footprint>Hrebinky:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="I2CIO01-rescue" part="CONN_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005475d9ce</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>_</value>
+      <footprint>Dira:MountingHole_3mm</footprint>
+      <libsource lib="I2CIO01-rescue" part="_" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005474842b</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>_</value>
+      <footprint>Dira:MountingHole_3mm</footprint>
+      <libsource lib="I2CIO01-rescue" part="_" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000547484fa</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>_</value>
+      <footprint>Dira:MountingHole_3mm</footprint>
+      <libsource lib="I2CIO01-rescue" part="_" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000547485b2</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>_</value>
+      <footprint>Dira:MountingHole_3mm</footprint>
+      <libsource lib="I2CIO01-rescue" part="_" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005474855d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000054686c9d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000054689a1b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000054686c56</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000054689a9e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468b3ec</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>-</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468c6cb</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468b419</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>-</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468c73a</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468b438</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>-</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468c75b</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468b457</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>-</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468c780</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468b47c</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>-</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468c7a3</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468b49b</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468c7d0</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>-</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468b4b8</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468c7f9</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>-</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468b4d7</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>-</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005468c81e</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="I2CIO01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005475ddae</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TCA6416A</value>
+      <footprint>IO:TSSOP-28</footprint>
+      <libsource lib="tca6416a" part="TCA6416A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000546882e8</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="I2CIO01-rescue" part="C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="I2CIO01-rescue" part="CONN1_2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN1_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="I2CIO01-rescue" part="CONN_2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="I2CIO01-rescue" part="JUMP_2X2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_2X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="I2CIO01-rescue" part="JUMP_3X2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_3X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="I2CIO01-rescue" part="JUMP_5X2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_5X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="I2CIO01-rescue" part="JUMP_8X2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_8X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="15" name="" type="passive"/>
+        <pin num="16" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="I2CIO01-rescue" part="R">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="I2CIO01-rescue" part="ZENER">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="I2CIO01-rescue" part="_">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">_</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tca6416a" part="TCA6416A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA6416A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INT" type="bidirectional"/>
+        <pin num="2" name="Vcci" type="bidirectional"/>
+        <pin num="3" name="RESET" type="bidirectional"/>
+        <pin num="4" name="P00" type="bidirectional"/>
+        <pin num="5" name="P01" type="bidirectional"/>
+        <pin num="6" name="P02" type="bidirectional"/>
+        <pin num="7" name="P03" type="bidirectional"/>
+        <pin num="8" name="P04" type="bidirectional"/>
+        <pin num="9" name="P05" type="bidirectional"/>
+        <pin num="10" name="P06" type="bidirectional"/>
+        <pin num="11" name="P07" type="bidirectional"/>
+        <pin num="12" name="GND" type="bidirectional"/>
+        <pin num="13" name="P10" type="bidirectional"/>
+        <pin num="14" name="P11" type="bidirectional"/>
+        <pin num="15" name="P12" type="bidirectional"/>
+        <pin num="16" name="P13" type="bidirectional"/>
+        <pin num="17" name="P14" type="bidirectional"/>
+        <pin num="18" name="P15" type="bidirectional"/>
+        <pin num="19" name="P16" type="bidirectional"/>
+        <pin num="20" name="P17" type="bidirectional"/>
+        <pin num="21" name="ADDR" type="bidirectional"/>
+        <pin num="22" name="SCL" type="bidirectional"/>
+        <pin num="23" name="SDA" type="bidirectional"/>
+        <pin num="24" name="Vccp" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="I2CIO01-rescue">
+      <uri>/github/workspace/hw/sch_pcb/I2CIO01-rescue.lib</uri>
+    </library>
+    <library logical="tca6416a">
+      <uri>/github/workspace/hw/sch_pcb/tca6416a.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/#INT">
+      <node ref="J1" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="INT" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/#RES">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="4" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="RESET" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/A0">
+      <node ref="J9" pin="2" pinfunction="PM" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="ADDR" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/P00">
+      <node ref="J6" pin="1" pintype="passive"/>
+      <node ref="J6" pin="16" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="P00" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/P01">
+      <node ref="J6" pin="15" pintype="passive"/>
+      <node ref="J6" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="P01" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/P02">
+      <node ref="J6" pin="14" pintype="passive"/>
+      <node ref="J6" pin="3" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="P02" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/P03">
+      <node ref="J6" pin="13" pintype="passive"/>
+      <node ref="J6" pin="4" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="P03" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/P04">
+      <node ref="J6" pin="12" pintype="passive"/>
+      <node ref="J6" pin="5" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="P04" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/P05">
+      <node ref="J6" pin="11" pintype="passive"/>
+      <node ref="J6" pin="6" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="P05" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/P06">
+      <node ref="J6" pin="10" pintype="passive"/>
+      <node ref="J6" pin="7" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="P06" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/P07">
+      <node ref="J6" pin="8" pintype="passive"/>
+      <node ref="J6" pin="9" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="P07" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/P10">
+      <node ref="J7" pin="1" pintype="passive"/>
+      <node ref="J7" pin="16" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="P10" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/P11">
+      <node ref="J7" pin="15" pintype="passive"/>
+      <node ref="J7" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="P11" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/P12">
+      <node ref="J7" pin="14" pintype="passive"/>
+      <node ref="J7" pin="3" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="P12" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/P13">
+      <node ref="J7" pin="13" pintype="passive"/>
+      <node ref="J7" pin="4" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="P13" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/P14">
+      <node ref="J7" pin="12" pintype="passive"/>
+      <node ref="J7" pin="5" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="P14" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/P15">
+      <node ref="J7" pin="11" pintype="passive"/>
+      <node ref="J7" pin="6" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="P15" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/P16">
+      <node ref="J7" pin="10" pintype="passive"/>
+      <node ref="J7" pin="7" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="P16" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/P17">
+      <node ref="J7" pin="8" pintype="passive"/>
+      <node ref="J7" pin="9" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="P17" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/SCL">
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="9" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/SDA">
+      <node ref="J2" pin="4" pintype="passive"/>
+      <node ref="J2" pin="7" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/Vccp">
+      <node ref="J5" pin="2" pinfunction="PM" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="Vccp" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="10" pintype="passive"/>
+      <node ref="J2" pin="5" pintype="passive"/>
+      <node ref="J2" pin="6" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J3" pin="4" pintype="passive"/>
+      <node ref="J3" pin="6" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="PM" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P1" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P2" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P3" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="P4" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Net-(J8-P1)">
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="J2" pin="8" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="5" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="PM" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="Vcci" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
