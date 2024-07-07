@@ -1,10 +1,10 @@
 # I2CIO01A - I2C IO Expander
 
-![I2CIO01A](/doc/img/I2CIO01A_top_big.jpg)
+![I2CIO01A](doc/img/I2CIO01A_top_big.jpg)
 
 ## Overview
 
-The I2CIO01A module is a GPIO expander designed for operation in the range of 1.65 to 5.5 V. It provides general-purpose remote I/O expansion via the I²C interface. The module consists of two 8-bit Configurable, Input Port, Output Port, and Polarity Inversion registers.
+The I2CIO01A module is a GPIO expander designed for operation in the range of 1.65 to 5.5 V. It provides general-purpose remote I/O expansion via the I²C interface. The module comprises two 8-bit Configurable, Input Ports, Output Port, and Polarity Inversion registers.
 
 ## Features
 
@@ -61,7 +61,7 @@ The module's design and layout files can be found in the `hw/sch_pcb` directory.
 ## Assembly and Testing
 
 1. **Assembly:** Follow the provided schematic and BOM for assembling the module.
-2. **Initial Inspection:** Perform a visual inspection to ensure there are no shorts on the power supply.
+2. **Initial Inspection:** Perform a visual inspection to ensure no shorts on the power supply.
 3. **Testing:** No additional setup is required beyond the initial inspection.
 
 For more detailed information on each component, please refer to their respective datasheets:
