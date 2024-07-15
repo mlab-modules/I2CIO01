@@ -15,11 +15,11 @@ images:
 - doc/gen/img/I2CIO01-bottom.png
 - doc/gen/img/I2CIO01-top.png
 - doc/img/I2CIO01A_QRcode.png
+- hw/cam_profi/assembly/I2CIO01-assembly_page_01.svg
+- hw/cam_profi/assembly/I2CIO01-assembly_page_02.svg
 - doc/gen/I2CIO01-schematic.svg
 - doc/gen/img/I2CIO01-bottom.svg
 - doc/gen/img/I2CIO01-top.svg
-- hw/cam_profi/assembly/I2CIO01-assembly_page_02.svg
-- hw/cam_profi/assembly/I2CIO01-assembly_page_01.svg
 issues: 0
 mark: 80
 mod_ibom: hw/cam_profi/I2CIO01-ibom.html
@@ -29,4 +29,4 @@ tags:
 - mlab
 - mlab-module
 title: I2CIO01
-updated: '2024-07-07T21:22:40.912225+00:00'
+updated: '2024-07-15T01:16:52.533427+00:00'
