@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/I2CIO01.kicad_sch</source>
-    <date>Sun Jul  7 21:21:59 2024</date>
-    <tool>Eeschema 7.0.11+1</tool>
+    <date>2024-07-16T01:17:51+0000</date>
+    <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>I2CIO01A</title>
@@ -27,33 +27,56 @@
     <comp ref="C1">
       <value>10uF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="C" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="SM* C? C1-1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005469d39d</tstamps>
     </comp>
     <comp ref="C2">
       <value>100nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="C" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="SM* C? C1-1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005469d318</tstamps>
     </comp>
     <comp ref="D1">
       <value>BZV55C-3,6V</value>
       <footprint>MLAB_D:Diode-MiniMELF_Standard</footprint>
+      <fields>
+        <field name="Footprint">MLAB_D:Diode-MiniMELF_Standard</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="ZENER" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="D? SO* SM*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468f21f</tstamps>
     </comp>
     <comp ref="J1">
       <value>JUMP_2X2</value>
       <footprint>Hrebinky:Pin_Header_Straight_2x02</footprint>
+      <fields>
+        <field name="Footprint">Hrebinky:Pin_Header_Straight_2x02</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="JUMP_2X2" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -63,6 +86,11 @@
     <comp ref="J2">
       <value>JUMP_5X2</value>
       <footprint>Hrebinky:Pin_Header_Straight_2x05</footprint>
+      <fields>
+        <field name="Footprint">Hrebinky:Pin_Header_Straight_2x05</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="JUMP_5X2" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -72,6 +100,11 @@
     <comp ref="J3">
       <value>JUMP_3X2</value>
       <footprint>Hrebinky:Pin_Header_Straight_2x03</footprint>
+      <fields>
+        <field name="Footprint">Hrebinky:Pin_Header_Straight_2x03</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="JUMP_3X2" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -81,6 +114,11 @@
     <comp ref="J4">
       <value>CONN_2</value>
       <footprint>Hrebinky:Pin_Header_Straight_1x02</footprint>
+      <fields>
+        <field name="Footprint">Hrebinky:Pin_Header_Straight_1x02</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="CONN_2" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -90,6 +128,11 @@
     <comp ref="J5">
       <value>CONN1_2</value>
       <footprint>Hrebinky:Pin_Header_Straight_1x02</footprint>
+      <fields>
+        <field name="Footprint">Hrebinky:Pin_Header_Straight_1x02</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="CONN1_2" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -99,6 +142,11 @@
     <comp ref="J6">
       <value>JUMP_8X2</value>
       <footprint>Hrebinky:Pin_Header_Straight_2x08</footprint>
+      <fields>
+        <field name="Footprint">Hrebinky:Pin_Header_Straight_2x08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="JUMP_8X2" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -108,6 +156,11 @@
     <comp ref="J7">
       <value>JUMP_8X2</value>
       <footprint>Hrebinky:Pin_Header_Straight_2x08</footprint>
+      <fields>
+        <field name="Footprint">Hrebinky:Pin_Header_Straight_2x08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="JUMP_8X2" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -117,6 +170,11 @@
     <comp ref="J8">
       <value>CONN1_2</value>
       <footprint>Hrebinky:Pin_Header_Straight_1x02</footprint>
+      <fields>
+        <field name="Footprint">Hrebinky:Pin_Header_Straight_1x02</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="CONN1_2" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -126,6 +184,11 @@
     <comp ref="J9">
       <value>CONN_2</value>
       <footprint>Hrebinky:Pin_Header_Straight_1x02</footprint>
+      <fields>
+        <field name="Footprint">Hrebinky:Pin_Header_Straight_1x02</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="CONN_2" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -135,6 +198,11 @@
     <comp ref="P1">
       <value>_</value>
       <footprint>Dira:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Dira:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="_" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -144,6 +212,11 @@
     <comp ref="P2">
       <value>_</value>
       <footprint>Dira:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Dira:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="_" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -153,6 +226,11 @@
     <comp ref="P3">
       <value>_</value>
       <footprint>Dira:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Dira:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="_" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -162,6 +240,11 @@
     <comp ref="P4">
       <value>_</value>
       <footprint>Dira:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Dira:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="_" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -171,195 +254,326 @@
     <comp ref="R1">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000054686c9d</tstamps>
     </comp>
     <comp ref="R2">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000054689a1b</tstamps>
     </comp>
     <comp ref="R3">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000054686c56</tstamps>
     </comp>
     <comp ref="R4">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000054689a9e</tstamps>
     </comp>
     <comp ref="R5">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468b3ec</tstamps>
     </comp>
     <comp ref="R6">
       <value>-</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468c6cb</tstamps>
     </comp>
     <comp ref="R7">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468b419</tstamps>
     </comp>
     <comp ref="R8">
       <value>-</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468c73a</tstamps>
     </comp>
     <comp ref="R9">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468b438</tstamps>
     </comp>
     <comp ref="R10">
       <value>-</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468c75b</tstamps>
     </comp>
     <comp ref="R11">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468b457</tstamps>
     </comp>
     <comp ref="R12">
       <value>-</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468c780</tstamps>
     </comp>
     <comp ref="R13">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468b47c</tstamps>
     </comp>
     <comp ref="R14">
       <value>-</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468c7a3</tstamps>
     </comp>
     <comp ref="R15">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468b49b</tstamps>
     </comp>
     <comp ref="R16">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468c7d0</tstamps>
     </comp>
     <comp ref="R17">
       <value>-</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468b4b8</tstamps>
     </comp>
     <comp ref="R18">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468c7f9</tstamps>
     </comp>
     <comp ref="R19">
       <value>-</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468b4d7</tstamps>
     </comp>
     <comp ref="R20">
       <value>-</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005468c81e</tstamps>
     </comp>
     <comp ref="R24">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">SMD_Packages:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="I2CIO01-rescue" part="R" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
+      <property name="ki_fp_filters" value="R? SM0603 SM0805 R?-* SM1206"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005475ddae</tstamps>
     </comp>
     <comp ref="U1">
       <value>TCA6416A</value>
       <footprint>IO:TSSOP-28</footprint>
+      <fields>
+        <field name="Footprint">IO:TSSOP-28</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="tca6416a" part="TCA6416A" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2CIO01.kicad_sch"/>
@@ -377,6 +591,9 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -387,6 +604,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">CONN1_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="P1" type="passive"/>
@@ -397,6 +617,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">CONN_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="P1" type="passive"/>
@@ -407,6 +630,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">JUMP_2X2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -419,6 +645,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">JUMP_3X2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -433,6 +662,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">JUMP_5X2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -451,6 +683,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">JUMP_8X2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -482,6 +717,9 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -497,6 +735,9 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">ZENER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
@@ -507,6 +748,9 @@
       <fields>
         <field name="Reference">P</field>
         <field name="Value">_</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="P1" type="passive"/>
@@ -516,6 +760,9 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">TCA6416A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="INT" type="bidirectional"/>
